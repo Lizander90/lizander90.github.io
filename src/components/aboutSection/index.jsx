@@ -1,7 +1,7 @@
 import './style.scss'
 import myPhoto from '../../assets/myphoto.jpg'
 import { Download } from 'react-bootstrap-icons'
-import resumePDF from '../../../public/lizander_cv.pdf'
+import resumePDF from '../../assets/lizander_cv.pdf'
 
 const AboutSection = () => {
 
