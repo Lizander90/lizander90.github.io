@@ -27,7 +27,7 @@ const BannerUi = () => {
                             </div>
 
                             Desarrollo webs minimalistas,
-                            enfocadas al diseño limpio evitando confusiones, perdidas y distracciones del usuario.<br />
+                            enfocadas al diseño limpio evitando confusiones, pérdidas y distracciones del usuario.<br />
                             <div>
                                 {/* Equipado con soluciones creativas para los problemas. */}
                             </div>
