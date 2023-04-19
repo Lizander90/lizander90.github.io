@@ -1,0 +1,52 @@
+.big-banner {
+  display: flex;
+  flex-direction: column;
+  // background-color: rgb(205, 247, 247);
+  width: 100%;
+  &__img {
+    img {
+      position: relative;
+      width: 600px;
+      top: -190px;
+      left: -160px;
+      z-index: 0;
+    }
+  }
+  &__contact {
+    .baner-content-section {
+      // padding: 0 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      padding: 0 40px;
+      .tittle {
+        font-family: "Quicksilver", sans-serif;
+        font-size: 80px;
+        font-size: 72px;
+        background: -webkit-linear-gradient(#862b27, #e68154);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .content {
+        max-width: 600px;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .big-banner {
+    width: 100vw;
+    flex-direction: row;
+    justify-items: flex-end;
+    justify-content: space-between;
+
+    &__contact {
+      margin: auto;
+      .baner-content-section {
+        // padding-right: 40px;
+        position: relative;
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/variables";
+@import url("https://fonts.cdnfonts.com/css/quicksilver");
+@import url("https://fonts.cdnfonts.com/css/poppins");
+
+$dark: #171717;
+$white: #f4f4f4;
+
+$primary-color: #e0d8d1;
+
+:root {
+  // font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  // font-family: "Quicksilver", sans-serif;
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 1280px;
+
+  // color-scheme: light dark;
+  // color-scheme: dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+#root {
+  width: 100vw;
+  // background-color: $dark;
+}
+
+body {
+  // color-scheme: dark;
+  padding: 0;
+  margin: 0;
+
+  min-width: 320px;
+  min-height: 100vh;
+  box-sizing: border-box;
+  // color: $white;
+  // background: aqua;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.dark-mode {
+  background-color: $dark;
+  color: $white;
+}
+
+// .light-mode {
+//   background-color: $white;
+//   color: $dark;
+// }
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.myBtn {
+  padding: 5px 30px;
+  border-radius: 5px;
+}
+
+// @media (prefers-color-scheme: light) {
+//   :root {
+//   }
+//   a:hover {
+//     color: #747bff;
+//   }
+//   button {
+//     background-color: #f9f9f9;
+//   }
+// }
