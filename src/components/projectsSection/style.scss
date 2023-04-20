@@ -4,6 +4,28 @@
 .footer {
   width: 100vw;
 
+  &__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    padding: 40px 40px;
+    background-color: #f2efef;
+    color: rgb(67, 67, 67);
+
+
+    &-tittle {
+      font-size: 34px;
+      font-weight: 500;
+    }
+
+    &-desc {
+      max-width: 900px;
+      font-size: 24px;
+      font-weight: normal;
+    }
+  }
+
   &__content {
     background-color: #f2efef;
     display: flex;

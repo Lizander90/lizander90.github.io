@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.scss'
 import NavBar from './components/navBar'
 import BannerUi from './components/banerUI'

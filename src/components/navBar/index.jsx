@@ -1,5 +1,5 @@
 // import React from 'react'
-import { MenuApp } from 'react-bootstrap-icons'
+import { MenuApp, PlusCircleFill } from 'react-bootstrap-icons'
 import './style.scss'
 import { useEffect, useState } from 'react'
 
@@ -21,15 +21,15 @@ const NavBar = () => {
 
                 <div className="container-fluid">
                     {/* <a href="" className="navbar-brand text-info fw-semibold fs-4">Lizander</a> */}
-                    <div
-                        className="navbar-toggler"
-                        id="toogler-button"
-                        type="button"
-                        data-bs-toggle="offcanvas"
-                        data-bs-target="#menuLateral"
-                    >
 
-                        {/* <span className="navbar-toggler-icon"></span> */}
+                    <div 
+                    className='navbar-toggler'
+                    id="toogler-button">
+                        <PlusCircleFill
+                            // type="button"
+                            data-bs-toggle="offcanvas"
+                            data-bs-target="#menuLateral"
+                        />
                     </div>
 
                     <section
