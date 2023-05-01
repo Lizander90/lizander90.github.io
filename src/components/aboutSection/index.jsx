@@ -20,18 +20,12 @@ const AboutSection = () => {
                     </div>
 
                     <div className="data-sub-title">
-                        {/* Con ya más de 3 años de
-                        experiencia, <span className='text-warning b'>mi amor</span> por la programación comenzó
-                        cuando cursé mis estudios técnicos en informática,
-                        donde descubrí que podía combinar mi creatividad con la tecnología. */}
-                            Después de graduarme de <span className='text-warning'>Ingeniero de Software</span> , comencé
-                            a trabajar de forma independiente como desarrollador web
-                            freelance.
+                        Después de graduarme de <span className='text-warning'>Ingeniero de Software</span> , comencé
+                        a trabajar de forma independiente como desarrollador web
+                        freelance.
                     </div>
 
                     <div className="data-description">
-                        {/* Durante un tiempo, interactué con disimiles clientes con diferentes
-                        requisitos, haciendome crecer y mejorar mis habilidades. */}
                         <div className='mt-5'>
                             Mientras trabajaba, descubrí que mi pasión estaba en crear proyectos con un
                             <span className='text-warning'> diseño elegante </span>y una solución precisa.

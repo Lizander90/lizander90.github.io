@@ -22,7 +22,7 @@ const ProjectSection = () => {
                         </mark> para mejorar tus
                         habilidades es la constante construcción de proyectos.
                         Les comparto algunos
-                        de mis trabajos web más reconocidos.
+                        de mis últimos trabajos webs.
                     </div>
                 </div>
 

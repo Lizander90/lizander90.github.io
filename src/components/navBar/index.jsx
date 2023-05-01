@@ -20,8 +20,6 @@ const NavBar = () => {
 
 
                 <div className="container-fluid">
-                    {/* <a href="" className="navbar-brand text-info fw-semibold fs-4">Lizander</a> */}
-
                     <div
                         className='navbar-toggler'
                         id="toogler-button">
