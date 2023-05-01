@@ -29,15 +29,17 @@
   &__content {
     background-color: #f2efef;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     padding: 30px 30px;
-    gap: 10px;
+    gap: 40px;
     justify-content: space-around;
     &-card {
       position: relative;
       border: 6px solid $dark;
       border-radius: 15px;
       max-width: 300px;
+      max-height: 450px;
       overflow: hidden;
       cursor: zoom-in;
       box-shadow: 3px 49px 65px -24px rgba(0, 0, 0, 0.78);
@@ -75,9 +77,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
+    background-color: aqua;
     img {
+      object-fit: cover;
       width: 110%;
+      
     }
   }
 }

@@ -1,9 +1,9 @@
 import './style.scss'
 import footerImg from '../../assets/footer.png'
 
-import cardImg_travel from '../../assets/travel-card.png'
+import cardImg_devSafio from '../../assets/DevSafio.png'
 import cardImg_vs from '../../assets/vs-card.png'
-import cardImg_landing from '../../assets/landing-card.png'
+import cardImg_Portafolio from '../../assets/Portafolio.png'
 import DescImag from './descImag'
 
 const ProjectSection = () => {
@@ -18,7 +18,7 @@ const ProjectSection = () => {
                     </div>
 
                     <div className='footer__section-desc'>
-                        Sin duda alguna,<mark className='bg-warning'>la clave 
+                        Sin duda alguna,<mark className='bg-warning'>la clave
                         </mark> para mejorar tus
                         habilidades es la constante construcción de proyectos.
                         Les comparto algunos
@@ -28,16 +28,23 @@ const ProjectSection = () => {
 
                 <div className='footer__content'>
                     <div className='footer__content-card'>
-                        <img className='card-image' src={cardImg_travel} alt='Travel Project' />
-                        <DescImag />
+                        <img className='card-image' src={cardImg_devSafio} alt='DevSafio' />
+                        <DescImag
+                            linkCode={'https://github.com/dlab-team/c7-frontend'}
+                            linkWeb={'https://devsafio.us'}
+                        />
                     </div>
                     <div className='footer__content-card'>
-                        <img className='card-image' src={cardImg_vs} alt='Travel Project' />
-                        <DescImag />
+                        <img className='card-image' src={cardImg_vs} alt='Valeria Smile' />
+                        <DescImag
+                            linkWeb={'https://clinicavaleriasmile.com'}
+                        />
                     </div>
                     <div className='footer__content-card'>
-                        <img className='card-image' src={cardImg_landing} alt='Travel Project' />
-                        <DescImag />
+                        <img className='card-image' src={cardImg_Portafolio} alt='Mi Portafolio' />
+                        <DescImag
+                            linkCode={'https://github.com/Lizander90/lizander90.github.io'}
+                        />
                     </div>
                 </div>
 

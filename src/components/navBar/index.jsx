@@ -22,9 +22,9 @@ const NavBar = () => {
                 <div className="container-fluid">
                     {/* <a href="" className="navbar-brand text-info fw-semibold fs-4">Lizander</a> */}
 
-                    <div 
-                    className='navbar-toggler'
-                    id="toogler-button">
+                    <div
+                        className='navbar-toggler'
+                        id="toogler-button">
                         <PlusCircleFill
                             // type="button"
                             data-bs-toggle="offcanvas"
@@ -38,7 +38,7 @@ const NavBar = () => {
                         tabIndex="-1"
                     >
                         <div className="offcanvas-header" data-bs-theme="dark">
-                            <h5 className="offcanvas-title text-warning" href={window.location.href + `#home`}>LIZANDER CAMILO</h5>
+                            <h5 className="offcanvas-title text-warning" href={`#home`}>LIZANDER CAMILO</h5>
                             <button
                                 className="btn-close bg-warning"
                                 type="button"
@@ -54,16 +54,16 @@ const NavBar = () => {
                             <ul className="navbar-nav fs-5 justify-content-end pe-5">
 
                                 <li className="nav-item p-3 py-md-1">
-                                    <a href={window.location.href + `#home`} className="nav-link">HOME</a>
+                                    <a href={`#home`} className="nav-link">HOME</a>
                                 </li>
                                 <li className="nav-item p-3 py-md-1">
-                                    <a href={window.location.href + `#about`} className="nav-link">ACERCA DE MI</a>
+                                    <a href={`#about`} className="nav-link">ACERCA DE MI</a>
                                 </li>
                                 <li className="nav-item p-3 py-md-1">
-                                    <a href={window.location.href + `#skills`} className="nav-link">HABILIDADES</a>
+                                    <a href={`#skills`} className="nav-link">HABILIDADES</a>
                                 </li>
                                 <li className="nav-item p-3 py-md-1">
-                                    <a href={window.location.href + `#projects`} className="nav-link">PROYECTOS</a>
+                                    <a href={`#projects`} className="nav-link">PROYECTOS</a>
                                 </li>
                             </ul>
 
