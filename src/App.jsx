@@ -5,17 +5,17 @@ import AboutSection from './components/aboutSection'
 import SkillSection from './components/skillsection'
 import ProjectSection from './components/projectsSection'
 
-function App() {
+const App = () => {
 
-  return (
-    <div className="App">
-      <NavBar />
-      <BannerUi />
-      <AboutSection />
-      <SkillSection />
-      <ProjectSection />
-    </div>
-  )
+
+  return <>
+    <NavBar />
+    <BannerUi />
+    <AboutSection />
+    <SkillSection />
+    <ProjectSection />
+  </>
+
 }
 
 export default App

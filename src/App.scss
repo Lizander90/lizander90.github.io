@@ -14,8 +14,8 @@ $primary-color: #e0d8d1;
   font-family: "Poppins", Helvetica;
   font-size: 16px;
   font-weight: 400;
-  max-width: 1280px;
-
+  // max-width: 1280px;
+  width: 100%;
   // color-scheme: light dark;
   // color-scheme: dark;
   font-synthesis: none;
@@ -35,12 +35,12 @@ body {
   padding: 0;
   margin: 0;
 
-  min-width: 320px;
+  // min-width: 320px;
   min-height: 100vh;
   box-sizing: border-box;
   // color: $white;
   // background: aqua;
-  max-width: 100%;
+  // width: 200px;
   overflow-x: hidden;
 }
 
